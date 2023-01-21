@@ -52,7 +52,7 @@ class Chatbox {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json'
-      },
+      } //,
     })
     .then(r => r.json())
     .then(r => {
